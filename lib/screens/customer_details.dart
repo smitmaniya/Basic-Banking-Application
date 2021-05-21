@@ -17,7 +17,7 @@ class _CustomerDetailsScreenState extends State<CustomerDetailsScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.purpleAccent,
         title: Text(query[1]),
       ),
       body: Padding(
@@ -38,7 +38,7 @@ class _CustomerDetailsScreenState extends State<CustomerDetailsScreen> {
               ),
             ),
             const Divider(
-              color: Colors.orange,
+              color: Colors.purpleAccent,
               height: 20,
               thickness: 5,
               endIndent: 0,

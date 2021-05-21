@@ -16,7 +16,7 @@ class _AdminDetailsScreenState extends State<AdminDetailsScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.purpleAccent,
         title: Text(query.name),
       ),
       body: Padding(
@@ -31,11 +31,11 @@ class _AdminDetailsScreenState extends State<AdminDetailsScreen> {
               query.name,
               style: TextStyle(
                 fontSize: 30,
-                color: Colors.orange[700],
+                color: Colors.purpleAccent[700],
               ),
             ),
             const Divider(
-              color: Colors.orange,
+              color: Colors.purpleAccent,
               height: 20,
               thickness: 3,
               endIndent: 0,

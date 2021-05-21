@@ -19,8 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.orange,
-        title: Text('Co-Operative Bank'),
+        backgroundColor: Colors.purpleAccent,
+        title: Text('Spark Foundation Bank'),
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.info),
@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 elevation: 10,
                 margin: EdgeInsets.all(3),
-                color: Colors.orange[100],
+                color: Colors.purpleAccent[100],
                 child: ClipRRect(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(60),
@@ -56,26 +56,26 @@ class _HomeScreenState extends State<HomeScreen> {
                       height: 250,
                       width: 250,
                       fit: BoxFit.fill,
-                      color: Colors.orangeAccent,
+                      //color: Colors.purpleAccent,
 
                     )),
               ),
               const Divider(
-                color: Colors.orange,
+                color: Colors.purpleAccent,
                 height: 20,
                 thickness: 5,
                 endIndent: 0,
               ),
               Text(
-                "Welcome! To The Co-operative Bank ",
+                "Welcome! To The Spark Foundation Bank ",
                 style: TextStyle(
                   fontSize: 25,
                   fontWeight: FontWeight.bold,
-                  color: Colors.orange,
+                  color: Colors.purpleAccent,
                 ),
               ),
               const Divider(
-                color: Colors.orange,
+                color: Colors.purpleAccent,
                 height: 20,
                 thickness: 5,
                 endIndent: 0,

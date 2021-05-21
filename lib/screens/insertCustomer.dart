@@ -32,7 +32,7 @@ class _InsertCustomerState extends State<InsertCustomer> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.purpleAccent,
         title: Text('Add a new customer'),
       ),
       body: SafeArea(
@@ -60,7 +60,7 @@ class _InsertCustomerState extends State<InsertCustomer> {
                           labelText: "Name",
                           fillColor: Colors.white,
                           labelStyle: TextStyle(
-                            color: Colors.orange,
+                            color: Colors.purpleAccent,
                           ),
                         ),
                       ),
@@ -82,7 +82,7 @@ class _InsertCustomerState extends State<InsertCustomer> {
                           labelText: "Intial Balance",
                           fillColor: Colors.white,
                           labelStyle: TextStyle(
-                            color: Colors.orange,
+                            color: Colors.purpleAccent,
                           ),
                         ),
                       ),
@@ -100,7 +100,7 @@ class _InsertCustomerState extends State<InsertCustomer> {
                   _employeeNameController.text = '';
                   _employeeBalanceController.text = 0.0.toString();
                 },
-                color: Colors.orange[700],
+                color: Colors.purpleAccent[700],
                 child: Text('ADD Customer', style: TextStyle(color: Colors.white)),
               ),
             ],

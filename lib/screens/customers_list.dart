@@ -18,7 +18,7 @@ class _CustomersListState extends State<CustomersList> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.orange,
+          backgroundColor: Colors.purpleAccent,
           title: Text('View All Customers List'),
         ),
         body: SafeArea(

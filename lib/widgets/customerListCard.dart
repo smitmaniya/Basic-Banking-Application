@@ -22,7 +22,7 @@ class _CustomerListCardState extends State<CustomerListCard> {
       alignment: Alignment.center,
       height: 80,
       child: Card(
-        color: Colors.orange[500],
+        color: Colors.purpleAccent[500],
         elevation: 5,
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
@@ -35,14 +35,14 @@ class _CustomerListCardState extends State<CustomerListCard> {
           contentPadding: EdgeInsets.all(10),
           leading: Icon(
             widget.icon,
-            color: Colors.white,
+            color: Colors.black,
             size: 40,
           ),
           title: Text(
             widget.title,
             style: TextStyle(
               fontSize: 22,
-              color: Colors.white,
+              color: Colors.purpleAccent,
             ),
           ),
           trailing: IconButton(

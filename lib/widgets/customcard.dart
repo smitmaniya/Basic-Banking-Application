@@ -12,7 +12,7 @@ class CustomCard extends StatelessWidget {
     return Container(
       alignment: Alignment.center,
       child: Card(
-        color: Colors.orange,
+        color: Colors.purpleAccent,
         elevation: 5,
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(

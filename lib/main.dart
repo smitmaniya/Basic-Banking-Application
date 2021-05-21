@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Co-Operative Bank',
       theme: ThemeData(
-        primaryColor: Colors.orange,
+        primaryColor: Colors.purpleAccent,
         accentColor: Colors.red[400],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
